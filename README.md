@@ -55,4 +55,11 @@ Acting as a Junior Business Intelligence Analyst for a national retail client, t
 | `Executive_Summary_Report.docx` | Insights, risks, opportunities, and recommendations |
 
 ---
-*Part of the AnalystLab Africa Data Analytics Internship Programme.* `#AnalystLabAfrica`
+## 👤 Author
+
+**Ekenga Pade Dorothy**
+Junior Data Analyst Intern — AnalystLab Africa
+
+*Data Analytics Internship Programme, Week 1: Business Analytics Case Study*
+
+#AnalystLabAfrica
