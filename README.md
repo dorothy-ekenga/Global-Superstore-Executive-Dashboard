@@ -19,7 +19,7 @@ Acting as a Junior Business Intelligence Analyst for a national retail client, t
 
 ## Dashboard Preview
 
-* `![Dashboard Preview](superstore.png)`)*
+* ![Dashboard Preview](superstore.png)`)*
 
 ## Key Insights
 
