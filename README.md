@@ -1,7 +1,8 @@
-# Global Superstore Executive Dashboard
+* # Global Superstore Executive Dashboard
 
-**AnalystLab Africa — Data Analytics Internship Programme, Week 2**
-**Business Intelligence & Interactive Dashboard Development**
+**AnalystLab Africa — Data Analytics Internship Programme**
+**Week 2: Business Intelligence & Interactive Dashboard Development**
+**Week 3: Advanced Data Analysis, KPI Development & Business Intelligence Dashboard**
 
 ## Business Problem
 
@@ -19,7 +20,7 @@ Acting as a Junior Business Intelligence Analyst for a national retail client, t
 
 ## Dashboard Preview
 
-* ![Dashboard Preview](superstore.png)`)*
+*(Add a screenshot of your dashboard here — drag the image into this file in the GitHub editor, or use: `!* ![Dashboard Preview](superstore.png)`)*
 
 ## Key Insights
 
@@ -28,6 +29,21 @@ Acting as a Junior Business Intelligence Analyst for a national retail client, t
 - **Technology is the most profitable category** ($664K profit), while **Furniture is the least efficient** — and the Tables sub-category is the only one that's outright unprofitable, losing $64K overall.
 - **Discounting above 20% destroys profit.** Orders with no discount run a 25% margin; every discount band above 20% is net loss-making, bottoming out at –139% margin on discounts of 60%+.
 - **Consumer segment and Standard Class shipping drive the most value** — Consumer alone outperforms Corporate and Home Office combined, and Standard Class carries the bulk of profitable volume.
+
+## Week 3: Advanced Analysis & KPIs
+
+Building on the Week 2 dashboard, Week 3 added deeper time-based, customer, and product-level analysis, plus a formal KPI and DAX measure set.
+
+**6 Dashboard KPIs:** Total Sales ($12.64M) · Total Profit ($1.47M) · Total Orders (25,035) · Total Customers (1,590) · Profit Margin (11.6%) · Average Sales per Order ($505)
+
+**Additional findings:**
+- Sales and profit growth are both accelerating year-over-year (sales +26.3%, profit +23.9% in 2014), not just growing in absolute terms.
+- Q4 is a consistent, repeatable seasonal peak across all four years — useful for inventory and staffing planning.
+- 678 of 3,788 products (18%) and 12,544 of 51,290 order lines (24.5%) are loss-making — the profitability issue is systemic discount-governance, not a few bad products.
+- The customer base is well-diversified: the top 10 customers (of 1,590) account for only ~2.7% of total sales.
+- Africa and Central Asia are the clearest growth opportunities — both convert sales to profit efficiently (17.6% and 11.3% margins) despite low volume, making them lower-risk to scale than fixing an underperforming large region.
+
+See `Advanced_Data_Analysis.docx`, `KPI_DAX_Measures.docx`, and `Business_Insights_Recommendations_Week3.docx` for full detail.
 
 ## Recommendations
 
@@ -49,17 +65,13 @@ Acting as a Junior Business Intelligence Analyst for a national retail client, t
 
 | File | Description |
 |---|---|
-| `SUPERSTORES DATA.pbix` | Power BI project file |
-| `SUPERSTORES.pdf` | Static export of the dashboard |
-| `BI_Overview_Report.docx` | Business Intelligence overview report |
-| `Executive_Summary_Report.docx` | Insights, risks, opportunities, and recommendations |
+| `Global_Superstore_Dashboard_week3.pbix` | Power BI project file |
+| `Global_Superstore_Dashboard_Week3.pdf` | Static export of the dashboard (both pages) |
+| `BI_Overview_Report.docx` | Week 2: Business Intelligence overview report |
+| `Executive_Summary_Report.docx` | Week 2: Insights, risks, opportunities, and recommendations |
+| `Advanced_Data_Analysis.docx` | Week 3: Continuity summary, deeper analysis, and business problem investigation |
+| `KPI_DAX_Measures.docx` | Week 3: KPI definitions and DAX measure documentation |
+| `Business_Insights_Recommendations_Week3.docx` | Week 3: Insights and evidence-based recommendations |
 
 ---
-## 👤 Author
-
-**Ekenga Pade Dorothy**
-Junior Data Analyst Intern — AnalystLab Africa
-
-*Data Analytics Internship Programme, Week 1: Business Analytics Case Study*
-
-#AnalystLabAfrica
+*Part of the AnalystLab Africa Data Analytics Internship Programme.* `#AnalystLabAfrica`
