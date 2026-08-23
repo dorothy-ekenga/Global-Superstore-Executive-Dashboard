@@ -20,7 +20,8 @@ Acting as a Junior Business Intelligence Analyst for a national retail client, t
 
 ## Dashboard Preview
 
-*(Add a screenshot of your dashboard here — drag the image into this file in the GitHub editor, or use: `!* ![Dashboard Preview](superstore.png)`)*
+*(Add a screenshot of your dashboard here — drag the image into this file in the GitHub editor, or use: 
+* ![Dashboard Preview](superstore.png)`)*
 
 ## Key Insights
 
