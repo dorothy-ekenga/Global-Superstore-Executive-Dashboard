@@ -1,3 +1,36 @@
+## Week 4 — HealthConnect Clinic Experience Lab (Data Analytics Track)
+
+**Project:** From Week 4, the AnalystLab Africa internship shifted to a shared, portfolio-scale project: helping a fictional healthcare provider, HealthConnect Clinic, understand and reduce patient appointment no-shows using data and AI. Each track contributes a different piece — mine is Data Analytics.
+
+**My objective:** Understand the appointment data well enough to identify the patterns behind no-shows, and translate them into business questions and KPIs that can guide clinic decisions — distinct from the Data Science track (prediction) and Generative AI track (patient-facing assistant).
+
+### What I did this week
+- Reviewed the 5,000-record appointment dataset and its data dictionary
+- Ran a full data quality assessment (missing values, duplicates, logical consistency checks)
+- Defined 5 business questions covering distance, appointment history, age/appointment type, reminders, and booking lead time
+- Proposed and validated 5 KPIs against those questions using Excel pivot tables
+- Documented assumptions, limitations, and risks
+
+### Key preliminary findings
+| Factor | Finding |
+|---|---|
+| Prior no-show history | Strongest signal — no-show rate climbs from 43.5% (0 prior no-shows) to 61.0% (2+ prior) |
+| Booking lead time | No-show patients booked ~10 days further in advance on average than patients who attended |
+| Reminders | Any reminder reduces no-shows vs. none; SMS performed best among channels |
+| Distance | Modest effect only |
+| Age / appointment type | Largely flat, except a lower no-show rate among patients 65+ |
+
+*Note: this dataset's overall 48.5% no-show rate is well above real-world clinic norms, so the patterns above are treated as directional, not exact real-world percentages.*
+
+### Files in this update
+- `HealthConnect_Week4_Initial_Analysis_Document.docx` — full track-specific output (problem, resources, data quality, business questions, KPIs, approach, limitations)
+- `HealthConnect_Week4_Project_Summary.docx` — concise summary
+- `HealthConnect_Week4_Pivot_Analysis.xlsx` — supporting Excel workbook (pivot tables behind each KPI)
+
+### Next (Week 5)
+Finalize distance and booking-lead-time bands, build a Power BI dashboard with one visual per KPI, and draft recommendations grounded in the strongest findings (prior no-show history, reminder channel).
+
+
 * # Global Superstore Executive Dashboard
 
 **AnalystLab Africa — Data Analytics Internship Programme**
