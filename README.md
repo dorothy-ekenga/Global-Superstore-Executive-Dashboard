@@ -1,3 +1,43 @@
+## Week 5 — HealthConnect Clinic Experience Lab (Data Analytics Track)
+
+**Focus this week:** Moving from Week 4's planning into actual analysis — calculating KPIs, building a dashboard, and producing business insights.
+
+### What I did this week
+- Reviewed and closed out data preparation (data types, categories, value ranges — all clean)
+- Ran deeper exploratory analysis, including two genuine variable *interactions* (not just single-variable checks):
+  - Reminder effectiveness varies by distance — reminders help mid-distance patients far more than the most distant ones
+  - Short booking lead time only protects patients who live nearby
+- Calculated all 5 KPIs proposed in Week 4, plus one bonus compound KPI
+- Built an initial Power BI dashboard with 4 KPI charts and 2 matrix visuals (with conditional-formatting heatmaps)
+- Produced 5 business insights plus one combined priority recommendation
+
+### Key finding
+Several variables that looked weak on a simple average in Week 4 — **distance** and **age** — turned out to have strong effects once banded or combined with a second variable. Averages can hide real patterns.
+
+### Headline numbers
+| KPI | Result |
+|---|---|
+| Prior no-shows (0/1/2+) | 43.5% → 53.5% → **61.0%** |
+| Booking lead time (<1wk/1-4wks/1mo+) | 27.8% → 39.7% → **59.6%** |
+| Distance (banded, incl. outlier group) | 46.5% → 47.3% → 52.8% → **61.0%** |
+| Reminder channel | SMS 45.8% (best) vs. No reminder 51.4% |
+| Age × appointment type (compound) | 41.8% to **62.4%** (45–54, Diagnostic Test) |
+
+### Priority recommendation
+Target SMS-based reminders specifically at patients with 2+ prior no-shows — combining the two strongest, most actionable findings into one proposal.
+
+### Files in this update
+- `HealthConnect_Week5_Initial_Analytics_Report.docx` — full track output (data prep, EDA, KPIs, dashboard, insights, limitations review)
+- `HealthConnect_Week5_Project_Summary.docx` — concise summary
+- `HealthConnect_Week5_Analysis.xlsx` — supporting Excel workbook
+- `HealthConnect. pbix` — Power BI dashboard file
+
+### Cross-track collaboration
+Reached out to cohort-mates on the Data Science, ML Engineering, and Generative AI tracks to share findings relevant to no-show prediction (prior no-show history, the waiting-time data-leakage caution). Collaboration write-up to follow once a reply is received.
+
+### Next (Week 6)
+Incorporate cross-track feedback, explore statistical validation of the smaller-sample findings, and begin translating the priority recommendation into a concrete action proposal.
+
 ## Week 4 — HealthConnect Clinic Experience Lab (Data Analytics Track)
 
 **Project:** From Week 4, the AnalystLab Africa internship shifted to a shared, portfolio-scale project: helping a fictional healthcare provider, HealthConnect Clinic, understand and reduce patient appointment no-shows using data and AI. Each track contributes a different piece — mine is Data Analytics.
