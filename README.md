@@ -32,6 +32,11 @@ Target SMS-based reminders specifically at patients with 2+ prior no-shows — c
 - `HealthConnect_Week5_Analysis.xlsx` — supporting Excel workbook
 - `HealthConnect. pbix` — Power BI dashboard file
 
+- ## Dashboard Preview
+
+(Add a screenshot of your dashboard here — drag the image into this file in the GitHub editor, or use: 
+* ![Dashboard Preview](Screenshot 2026-09-05 204547)`)*
+
 ### Cross-track collaboration
 Reached out to cohort-mates on the Data Science, ML Engineering, and Generative AI tracks to share findings relevant to no-show prediction (prior no-show history, the waiting-time data-leakage caution). Collaboration write-up to follow once a reply is received.
 
