@@ -1,3 +1,36 @@
+## Week 6 — HealthConnect Clinic Experience Lab (Data Analytics Track)
+
+**Focus this week:** moving from initial analysis (Week 5) into integration, deeper validation, and demonstrated cross-track collaboration.
+
+### What I did this week
+- Statistically validated 3 headline Week 5 findings using chi-square testing
+- Discovered and corrected a multiple-comparisons issue: the age × appointment-type finding (62.4%) looked significant on its own (p=0.0097) but did not hold up when tested across the full matrix (p=0.15) — downgraded from a confirmed finding to "worth investigating further"
+- Found a new, statistically significant compound risk segment: patients with 2+ prior no-shows **and** living 25.8km+ away reach an **80.0% no-show rate** (p=0.0047)
+- Showed the reminder effect is roughly twice as strong within the high-risk group (12-point gap) as in the general population (5.6-point gap)
+- Improved the Power BI dashboard: added a compound matrix visual and a statistical validation table, fixed a distance sort-order bug, added one-line takeaways under every visual
+- Produced a 6-item, confidence-rated action list translating findings into specific HealthConnect actions
+- Completed a real, evidence-backed cross-track integration with **Project Management** (submitted a structured Cross-Track Integration Questionnaire) after two direct outreach attempts to Data Science and ML Engineering went unanswered
+
+### Key results
+| Finding | p-value | Verdict |
+|---|---|---|
+| Prior no-shows (0/1/2+) | <0.001 | Strong — statistically real |
+| Distance outlier (25.8km+) | 0.0012 | Strong — statistically real |
+| Compound: prior no-shows × distance | 0.0047 | Real, but small sample (n=20) |
+| Age × appointment type | 0.15 (full matrix) | Not confirmed — revised from Week 5 |
+
+### Cross-track collaboration
+Two direct outreach attempts (Data Science, then ML Engineering) received no response, so I escalated via the shared cohort group channel and, per the coordinator's process, submitted a full Cross-Track Integration & Progress Questionnaire to Project Management — giving them complete visibility into my validated findings and the specific blocker, so they can facilitate a direct pairing before the deadline.
+
+### Files in this update
+- `HealthConnect_Week6_Advanced_Analytics_Report.docx` — full track-specific output (validation, compound finding, revised conclusions, dashboard, action list, cross-track contribution)
+- `HealthConnect_Week6_Project_Summary.docx` — concise summary
+- `HealthConnect_Week6_CrossTrack_Questionnaire_FILLED.docx` — submitted cross-track integration evidence
+- Updated Power BI dashboard (![Dashboard Preview](healthconnect.png)) and Excel workbook
+
+### Next (Week 7)
+Confirm direct integration with Data Science or ML Engineering once facilitated by Project Management; monitor whether the compound risk finding holds as more data accumulates; begin end-to-end validation ahead of final testing and refinement.
+
 ## Week 5 — HealthConnect Clinic Experience Lab (Data Analytics Track)
 
 **Focus this week:** Moving from Week 4's planning into actual analysis — calculating KPIs, building a dashboard, and producing business insights.
