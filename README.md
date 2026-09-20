@@ -1,3 +1,34 @@
+## Week 7 — HealthConnect Clinic Experience Lab (Data Analytics Track)
+
+**Focus this week:** systematic testing, refinement, and — for the first time — a genuine, evidenced cross-track collaboration with the Data Science track.
+
+### What I did this week
+- Ran a formal 10-item Testing & Validation Record covering dashboard construction, KPI accuracy, filter behaviour, and statistical validity
+- Found and fixed two real dashboard errors: a reminder-channel chart pulling the wrong field, and a distance-band sort order that defaulted to alphabetical (worked around a Power BI circular-dependency error with a label-based fix)
+- Removed a redundant visual once a better one covered the same information, and resized the dashboard layout
+- Re-tested the age × appointment-type finding rigorously  confirmed it does **not** survive full-matrix testing (p=0.15) and formally downgraded it, while re-confirming the two strongest findings (prior no-shows p<0.001, distance p=0.0012)
+- Connected directly with a **Data Science track partner** working on the same dataset from a completely different angle (a prediction model)
+- Compared independently-derived results: my top statistical predictors matched his model's top 2 features by importance exactly  neither of us knew the other's results beforehand
+  Ran a reciprocal check on his behalf: two segments where his model underperformed showed no statistically real pattern in my data (p=0.50, p=0.24), telling him it's likely model noise, not a missed feature
+  Proposed a concrete follow-up: an explicit interaction feature for the compound risk segment I found in Week 6, which his model doesn't currently have
+
+### Key cross-track result
+| Check | Result |
+|---|---|
+| Feature convergence | Full match — DS's top 2 features by importance = DA's top 2 statistically validated predictors |
+| Leakage caution | Independently confirmed on both sides (waiting_time_minutes) |
+| Age × type finding | Independently avoided by both sides — DS doesn't use it as a feature either |
+| Reciprocal segment check | Neither of DS's 2 weak segments shows a real pattern in the underlying data |
+
+### Files in this update
+- `HealthConnect_Week7_Analytics_Testing_Refinement_Report.docx` — full track-specific output (testing record, validated findings, dashboard refinements, cross-track contribution, limitations)
+- `HealthConnect_Week7_Project_Summary.docx` — concise summary
+- `HealthConnect_Week7_EndToEnd_Validation_Input_UPDATED.docx` — submitted end-to-end validation evidence
+- Updated Power BI dashboard (![Dashboard Preview](health.png)) and Excel workbook
+
+### Next (Week 8)
+Follow up on the Data Science interaction-feature test result, standardise distance-band boundary handling, and prepare all validated findings and dashboard evidence for final integration and presentation.
+
 ## Week 6 — HealthConnect Clinic Experience Lab (Data Analytics Track)
 
 **Focus this week:** moving from initial analysis (Week 5) into integration, deeper validation, and demonstrated cross-track collaboration.
